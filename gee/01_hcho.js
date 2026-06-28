@@ -8,7 +8,7 @@ Map.addLayer(india, {}, "India Boundary");
 
 
 // Sentinel-5P HCHO Dataset
-
+// For october 2023 only
 var hcho = ee.ImageCollection("COPERNICUS/S5P/OFFL/L3_HCHO")
               .filterDate('2023-10-01', '2023-10-31');
 
